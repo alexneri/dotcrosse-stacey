@@ -3,7 +3,7 @@
 # let people know if they are running an unsupported version of PHP
 if(phpversion() < 5.3) {
 
-  die('<h3>Stacey requires PHP/5.3 or higher.<br>You are currently running PHP/'.phpversion().'.</h3><p>You should contact your host to see if they can upgrade your version of PHP.</p>');
+  die('<h3>This site requires PHP/5.3 or higher.<br>You are currently running PHP/'.phpversion().'.</h3><p>You should contact your host to see if they can upgrade your version of PHP.</p>');
 
 } else {
 
