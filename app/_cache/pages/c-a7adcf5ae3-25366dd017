@@ -16,47 +16,47 @@
       <em class="col three"><p><a href="&#x6d;&#x61;&#x69;&#x6c;&#x74;&#x6f;&#x3a;&#x64;&#x6f;&#x74;&#x63;&#114;&#111;&#115;&#115;&#101;&#64;&#99;&#121;&#110;&#101;&#46;jp">&#x64;&#x6f;&#x74;&#x63;&#114;&#111;&#115;&#115;&#101;&#64;&#99;&#121;&#110;&#101;&#46;jp</a></p>
 </em>
       <hr>
-      <ul id="navigation" class="col two">
+      <ul id="navigation" class="header-nav">
       <li>
-      <a href="../projects/">Projects</a>
-        <ol class="children">
+      <a class="ajax-link" href="../projects/">Projects</a>
+        <ul class="children">
           <li>
-        <a href="../projects/project-1/">Project 1</a>
+        <a class="ajax-link" href="../projects/project-1/">Project 1</a>
               </li>
           <li>
-        <a href="../projects/movie-project-2/">Movie Project 2</a>
+        <a class="ajax-link" href="../projects/movie-project-2/">Movie Project 2</a>
               </li>
           <li>
-        <a href="../projects/project-name-3/">Project Name 3</a>
+        <a class="ajax-link" href="../projects/project-name-3/">Project Name 3</a>
               </li>
           <li>
-        <a href="../projects/youtube-project-4/">Youtube Project 4</a>
+        <a class="ajax-link" href="../projects/youtube-project-4/">Youtube Project 4</a>
               </li>
           <li>
-        <a href="../projects/vimeo-project-5/">Vimeo Project 5</a>
+        <a class="ajax-link" href="../projects/vimeo-project-5/">Vimeo Project 5</a>
               </li>
           <li>
-        <a href="../projects/swf-project-6/">Swf Project 6</a>
+        <a class="ajax-link" href="../projects/swf-project-6/">Swf Project 6</a>
               </li>
           <li>
-        <a href="../projects/mixed-media-project-7/">Mixed Media Project 7</a>
+        <a class="ajax-link" href="../projects/mixed-media-project-7/">Mixed Media Project 7</a>
               </li>
           <li>
-        <a href="../projects/project-name-8/">Project Name 8</a>
+        <a class="ajax-link" href="../projects/project-name-8/">Project Name 8</a>
               </li>
           <li>
-        <a href="../projects/project-name-9/">Project Name 9</a>
+        <a class="ajax-link" href="../projects/project-name-9/">Project Name 9</a>
               </li>
           <li>
-        <a href="../projects/project-name-10/">Project Name 10</a>
+        <a class="ajax-link" href="../projects/project-name-10/">Project Name 10</a>
               </li>
-      </ol>
+      </ul>
     </li>
       <li>
-      <a href="../about/">About DotCrosse</a>
+      <a class="ajax-link" href="../about/">About DotCrosse</a>
           </li>
       <li>
-      <a href="../contact-me/">Contact details</a>
+      <a class="ajax-link" href="../contact-me/">Contact details</a>
           </li>
   </ul>      <div id="content" class="col eight">
         <p class="date col one">&para;</p>
