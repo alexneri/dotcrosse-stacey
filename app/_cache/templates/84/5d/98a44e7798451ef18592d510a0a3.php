@@ -216,19 +216,28 @@ class __TwigTemplate_845d98a44e7798451ef18592d510a0a3 extends Twig_Template
 
       <div class=\"parallax-option\" data-jkit=\"[parallax:strength=0.8;axis=both]\">
 
-        <div class=\"parallax parallax1\"><img src=\"img/business-card-2.png\"></div>
+        <div class=\"parallax parallax1\"><img src=\"";
+        // line 180
+        echo $this->getAttribute((isset($context["page"]) ? $context["page"] : null), "root_path");
+        echo "/templates/img/business-card-2.png\"></div>
       
       </div>
       
       <div class=\"parallax-option\" data-jkit=\"[parallax:strength=0.5;axis=both]\">
 
-        <div class=\"parallax parallax1\"><img src=\"img/char_img.png\"></div>
+        <div class=\"parallax parallax1\"><img src=\"";
+        // line 186
+        echo $this->getAttribute((isset($context["page"]) ? $context["page"] : null), "root_path");
+        echo "/templates/img/char_img.png\"></div>
       
       </div>
 
       <div class=\"parallax-option\" data-jkit=\"[parallax:strength=0.3;axis=both]\">
 
-        <div class=\"parallax parallax1\"><img src=\"img/business-card.png\"></div>
+        <div class=\"parallax parallax1\"><img src=\"";
+        // line 192
+        echo $this->getAttribute((isset($context["page"]) ? $context["page"] : null), "root_path");
+        echo "/templates/img/business-card.png\"></div>
       
       </div>
 
