@@ -11,67 +11,299 @@ class __TwigTemplate_845d98a44e7798451ef18592d510a0a3 extends Twig_Template
     protected function doDisplay(array $context, array $blocks = array())
     {
         // line 1
-        echo "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01//EN\"
-  \"http://www.w3.org/TR/html4/strict.dtd\">
-<html>
-  <head>
-    <meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\">
-    <title>";
-        // line 6
-        echo $this->getAttribute((isset($context["page"]) ? $context["page"] : null), "name");
-        echo "'s Portfolio </title>
-    <link rel=\"alternate\" type=\"application/atom+xml\" href=\"";
+        echo "<!doctype html>
+
+<html lang=\"en\">
+<head>
+
+  <meta charset=\"utf-8\">
+  <title>";
         // line 7
+        echo $this->getAttribute((isset($context["page"]) ? $context["page"] : null), "name");
+        echo ": Technology, Designs, Works.</title>
+  <meta name=\"description\" content=\"DOTCROSSE - Technology, Designs, and Works. \">
+  <meta name=\"keywords\" content=\"clean, elegant, design, simplicity, theme, html5\">
+  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"/>
+  <meta name=\"author\" content=\"dc.cyne.jp\">
+  <link rel=\"icon\" type=\"image/png\" href=\"";
+        // line 12
         echo $this->getAttribute((isset($context["page"]) ? $context["page"] : null), "root_path");
-        echo "/?/feed/\">
-    <link rel=\"stylesheet\" href=\"";
-        // line 8
+        echo "/templates/img/icon.png\" />
+
+<!--Style-->
+
+  <link rel=\"stylesheet\" href=\"";
+        // line 16
         echo $this->getAttribute((isset($context["page"]) ? $context["page"] : null), "root_path");
-        echo "/public/docs/css/screen.css\" type=\"text/css\" media=\"screen\">
-  </head>
-  <body>
-    <div id=\"container\">
-      <h1 class=\"col three\">
-        <a href=\"";
-        // line 13
+        echo "/templates/css/reset.css\">
+  <link rel=\"stylesheet\" href=\"";
+        // line 17
+        echo $this->getAttribute((isset($context["page"]) ? $context["page"] : null), "root_path");
+        echo "/templates/css/style.css\">
+  <link rel=\"stylesheet\" href=\"";
+        // line 18
+        echo $this->getAttribute((isset($context["page"]) ? $context["page"] : null), "root_path");
+        echo "/templates/css/style-responsive.css\">
+  <link rel=\"stylesheet\" href=\"http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css\">
+  
+  <!--[if lt IE 9]>
+  <script src=\"http://html5shiv.googlecode.com/svn/trunk/html5.js\"></script>
+  <![endif]-->
+  
+</head>
+
+<body>
+
+<!--Preloader-->
+
+<div class=\"preloader\" id=\"preloader\">
+    <div class=\"item\">
+      <div class=\"spinner\">
+      </div>
+    </div>
+</div>
+
+<div class=\"opacity-nav\">
+
+        <div class=\"menu-index\" id=\"buttons\" style=\"z-index:999999\">
+        <i class=\"fa  fa-close\"></i>
+        </div>
+
+    <ul class=\"menu-fullscreen\">
+      <li><a class=\"ajax-link\" href=\"index.html\">Home</a></li>
+      <li><a class=\"ajax-link\" href=\"projects.html\">Projects</a></li>
+      <li><a class=\"ajax-link\" href=\"about-us.html\">Who am I?</a></li>
+      <li><a class=\"ajax-link\" href=\"contact.html\">Contact</a></li>
+    </ul>
+
+</div>
+
+
+  <!--Header-->
+  <header id=\"fullscreen\">
+    
+      <div class=\"logo\" id=\"full\" style=\"display:none;\"><a class=\"ajax-link\" href=\"index.html\">";
+        // line 57
+        echo $this->getAttribute((isset($context["page"]) ? $context["page"] : null), "name");
+        echo "</a></div>
+      
+        <div class=\"menu-index\" style=\"display:none;\" id=\"button\">
+        <i class=\"fa fa-bars\"></i>
+        </div>
+
+  </header>
+
+
+<!--Header-->
+<header class=\"boxed\" id=\"header-white\">
+
+  <div class=\"header-margin\">
+  
+    <div class=\"logo\"><a class=\"ajax-link\" href=\"";
+        // line 71
         echo $this->getAttribute((isset($context["page"]) ? $context["page"] : null), "root_path");
         echo "\">";
         echo $this->getAttribute((isset($context["page"]) ? $context["page"] : null), "name");
-        echo "</a>
-        <strong>";
-        // line 14
-        echo $this->getAttribute((isset($context["page"]) ? $context["page"] : null), "profession");
-        echo "</strong>
-      </h1>
-      <em class=\"col three\">";
-        // line 16
-        echo $this->getAttribute((isset($context["page"]) ? $context["page"] : null), "email");
-        echo "</em>
-      <hr>
+        echo "</a></div>
+
       ";
-        // line 18
+        // line 73
         $this->env->loadTemplate("partials/navigation/navigation.html")->display($context);
-        // line 19
-        echo "      <div id=\"content\" class=\"col eight\">
-        ";
-        // line 20
-        $this->env->loadTemplate("partials/navigation/category-lists.html")->display($context);
-        // line 21
-        echo "      </div>
-      <hr>
-      <p id=\"footer\" class=\"col six\">&copy; Copyright ";
-        // line 23
-        echo $this->getAttribute((isset($context["page"]) ? $context["page"] : null), "name");
-        echo " ";
-        echo $this->getAttribute((isset($context["page"]) ? $context["page"] : null), "current_year");
-        echo " <a class=\"atom-rss\" href=\"";
-        echo $this->getAttribute((isset($context["page"]) ? $context["page"] : null), "root_path");
-        echo "/?/feed/\">RSS</a><br>
-        <em>Content managed by <a href=\"http://www.staceyapp.com\">stacey</a></em></p>
+        // line 74
+        echo "    
+    <ul class=\"social-icon\">
+      <div class=\"social-index\">
+      <li><a href=\"https://www.twitter.com/DotCrosse\"><i class=\"fa fa-twitter\"></i></a></li>
+      <li><a href=\"https://www.behance.net/AlexNeri\"><i class=\"fa fa-behance\"></i></a></li>
+      </div>
+    </ul>
+    
+  </div>
+
+</header>
+
+<div class=\"clear\"></div>
+
+<!--Content-->
+
+<div class=\"content\" id=\"ajax-content\">
+
+
+      <div class=\"text-intro\" id=\"site-type\">
+
+        <h1>Technical.<br />Creative.<br />See all</h1>
+        <h1 class=\"typewrite\"><span>Portfolio</span></h1>
+        <p>This is my creative and technical portfolio site. Have a look around and see what I have been up to.</p>
+
+      </div>
+
+
+<!--Portfolio grid-->
+
+<ul class=\"portfolio-grid\" id=\"portfolio-sidebar\">
+
+  
+    <li class=\"grid-item\" data-jkit=\"[show:delay=3000;speed=500;animation=fade]\">
+      <img src=\"img/portfolio/1.png\">
+        <a class=\"ajax-link\" href=\"my-designs-mirai-umbrella.html\">  
+          <div class=\"grid-hover\">
+            <h1>Mirai Umbrella</h1>
+            <p>Product Design</p>
+          </div>
+        </a>  
+    </li>
+
+    <li class=\"grid-item\" data-jkit=\"[show:delay=3000;speed=500;animation=fade]\">
+      <img src=\"img/portfolio/5.png\">
+        <a class=\"ajax-link\" href=\"my-designs-cucina-espana.html\">  
+          <div class=\"grid-hover\">
+            <h1>Cucina España</h1>
+            <p>Branding</p>
+          </div>
+        </a>      
+    </li> 
+  
+  <li class=\"grid-item\" data-jkit=\"[show:delay=3000;speed=500;animation=fade]\">
+    <img src=\"img/portfolio/2.jpg\">
+      <a class=\"ajax-link\" href=\"#\">  
+        <div class=\"grid-hover\">
+          <h1>Single</h1>
+          <p>Branding</p>
+        </div>
+      </a>      
+  </li>  
+  
+  <li class=\"grid-item\" data-jkit=\"[show:delay=3000;speed=500;animation=fade]\">
+    <img src=\"img/portfolio/3.jpg\">
+      <a class=\"ajax-link\" href=\"#\">  
+        <div class=\"grid-hover\">
+          <h1>Single</h1>
+          <p>Branding</p>
+        </div>
+      </a>      
+  </li>    
+
+  <li class=\"grid-item\" data-jkit=\"[show:delay=3000;speed=500;animation=fade]\">
+    <img src=\"img/portfolio/4.jpg\">
+      <a class=\"ajax-link\" href=\"#\">  
+        <div class=\"grid-hover\">
+          <h1>Single</h1>
+          <p>Branding</p>
+        </div>
+      </a>      
+  </li>    
+
+  <li class=\"grid-item\" data-jkit=\"[show:delay=3000;speed=500;animation=fade]\">
+    <img src=\"img/portfolio/6.jpg\">
+      <a class=\"ajax-link\" href=\"#\">  
+        <div class=\"grid-hover\">
+          <h1>Single</h1>
+          <p>Branding</p>
+        </div>
+      </a>      
+  </li>  
+
+</ul>
+
+</div>
+
+
+<!--Home Sidebar-->
+
+<div id=\"ajax-sidebar\">
+
+    <div class=\"home-sidebar\"style=\"background-image:url('img/home-sidebar.jpg')\" id=\"hero\">
+
+      <div class=\"parallax-option\" data-jkit=\"[parallax:strength=0.8;axis=both]\">
+
+        <div class=\"parallax parallax1\"><img src=\"img/business-card-2.png\"></div>
+      
+      </div>
+      
+      <div class=\"parallax-option\" data-jkit=\"[parallax:strength=0.5;axis=both]\">
+
+        <div class=\"parallax parallax1\"><img src=\"img/char_img.png\"></div>
+      
+      </div>
+
+      <div class=\"parallax-option\" data-jkit=\"[parallax:strength=0.3;axis=both]\">
+
+        <div class=\"parallax parallax1\"><img src=\"img/business-card.png\"></div>
+      
+      </div>
+
     </div>
-  </body>
-</html>
-";
+
+</div>
+
+
+<!--Footer-->
+
+<footer id=\"footer-box\">
+
+  <div class=\"footer-margin\">
+   
+  <div class=\"copyright\" id=\"footer-left\">© Copyright ";
+        // line 207
+        echo $this->getAttribute((isset($context["page"]) ? $context["page"] : null), "current_year");
+        echo " Alex Neri | ";
+        echo $this->getAttribute((isset($context["page"]) ? $context["page"] : null), "name");
+        echo ". All Rights Reserved unless otherwise specified.</div>
+  
+  </div>
+
+
+</footer>
+
+
+<!--Scripts-->
+
+  <script src=\"";
+        // line 217
+        echo $this->getAttribute((isset($context["page"]) ? $context["page"] : null), "root_path");
+        echo "/templates/js/jquery.min.js\"></script>
+\t<script src=\"";
+        // line 218
+        echo $this->getAttribute((isset($context["page"]) ? $context["page"] : null), "root_path");
+        echo "/templates/js/jquery.easing.min.js\"></script>
+\t<script src=\"";
+        // line 219
+        echo $this->getAttribute((isset($context["page"]) ? $context["page"] : null), "root_path");
+        echo "/templates/js/modernizr.custom.42534.js\" type=\"text/javascript\"></script>
+  <script src=\"";
+        // line 220
+        echo $this->getAttribute((isset($context["page"]) ? $context["page"] : null), "root_path");
+        echo "/templates/js/jquery.waitforimages.js\" type=\"text/javascript\"></script>
+  <script src=\"";
+        // line 221
+        echo $this->getAttribute((isset($context["page"]) ? $context["page"] : null), "root_path");
+        echo "/templates/js/typed.js\" type=\"text/javascript\"></script>
+  <script src=\"";
+        // line 222
+        echo $this->getAttribute((isset($context["page"]) ? $context["page"] : null), "root_path");
+        echo "/templates/js/masonry.pkgd.min.js\" type=\"text/javascript\"></script>  
+  <script src=\"";
+        // line 223
+        echo $this->getAttribute((isset($context["page"]) ? $context["page"] : null), "root_path");
+        echo "/templates/js/imagesloaded.pkgd.min.js\" type=\"text/javascript\"></script>    
+  <script src=\"";
+        // line 224
+        echo $this->getAttribute((isset($context["page"]) ? $context["page"] : null), "root_path");
+        echo "/templates/js/jquery.jkit.1.2.16.min.js\"></script>
+  <script src=\"";
+        // line 225
+        echo $this->getAttribute((isset($context["page"]) ? $context["page"] : null), "root_path");
+        echo "/templates/js/script.js\" type=\"text/javascript\"></script>
+
+\t<script>
+    \$('#button, #buttons').on('click', function() {
+      \$( \".opacity-nav\" ).fadeToggle( \"slow\", \"linear\" );
+    // Animation complete.
+    });
+  </script>
+
+</body>
+</html>";
     }
 
     public function getTemplateName()

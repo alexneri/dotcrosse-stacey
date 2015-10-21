@@ -13,7 +13,7 @@ class __TwigTemplate_88773a5e41b586e2b82b5980077a11c6 extends Twig_Template
         // line 1
         if ($this->getAttribute((isset($context["page"]) ? $context["page"] : null), "children")) {
             // line 2
-            echo "  <ol class=\"children\">
+            echo "  <ul class=\"children\">
     ";
             // line 3
             $context['_parent'] = (array) $context;
@@ -34,7 +34,7 @@ class __TwigTemplate_88773a5e41b586e2b82b5980077a11c6 extends Twig_Template
             foreach ($context['_seq'] as $context["_key"] => $context["child"]) {
                 // line 4
                 echo "      <li>
-        <a href=\"";
+        <a class=\"ajax-link\" href=\"";
                 // line 5
                 echo $this->getAttribute((isset($context["child"]) ? $context["child"] : null), "url");
                 echo "\">";
@@ -59,7 +59,7 @@ class __TwigTemplate_88773a5e41b586e2b82b5980077a11c6 extends Twig_Template
             unset($context['_seq'], $context['_iterated'], $context['_key'], $context['child'], $context['_parent'], $context['loop']);
             $context = array_merge($_parent, array_intersect_key($context, $_parent));
             // line 9
-            echo "  </ol>
+            echo "  </ul>
 ";
         }
     }

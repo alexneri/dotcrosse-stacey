@@ -11,7 +11,7 @@ class __TwigTemplate_3df0d24dc2b37acb071de9b7c3a5304f extends Twig_Template
     protected function doDisplay(array $context, array $blocks = array())
     {
         // line 1
-        echo "<ul id=\"navigation\" class=\"col two\">
+        echo "<ul id=\"navigation\" class=\"header-nav\">
   ";
         // line 2
         $context['_parent'] = (array) $context;
@@ -32,7 +32,7 @@ class __TwigTemplate_3df0d24dc2b37acb071de9b7c3a5304f extends Twig_Template
         foreach ($context['_seq'] as $context["_key"] => $context["child"]) {
             // line 3
             echo "    <li>
-      <a href=\"";
+      <a class=\"ajax-link\" href=\"";
             // line 4
             echo $this->getAttribute((isset($context["child"]) ? $context["child"] : null), "url");
             echo "\">";

@@ -1,7 +1,7 @@
-<ul id="navigation" class="col two">
+<ul id="navigation" class="header-nav">
   {% for child in page.root %}
     <li>
-      <a href="{{ child.url }}">{{ child.title }}</a>
+      <a class="ajax-link" href="{{ child.url }}">{{ child.title }}</a>
       {% include 'partials/navigation/children.html' with { 'page' : child } %}
     </li>
   {% endfor %}
