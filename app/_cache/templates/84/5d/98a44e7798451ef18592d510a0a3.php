@@ -70,11 +70,11 @@ class __TwigTemplate_845d98a44e7798451ef18592d510a0a3 extends Twig_Template
         </div>
 
     <ul class=\"menu-fullscreen\">
-      <li><a class=\"ajax-link\" href=\"index.html\">Home</a></li>
-      <li><a class=\"ajax-link\" href=\"projects.html\">Projects</a></li>
-      <li><a class=\"ajax-link\" href=\"about-us.html\">Who am I?</a></li>
-      <li><a class=\"ajax-link\" href=\"contact.html\">Contact</a></li>
-    </ul>
+        ";
+        // line 45
+        $this->env->loadTemplate("partials/navigation/navigation.html")->display($context);
+        // line 46
+        echo "    </ul>
 
 </div>
 
@@ -83,7 +83,7 @@ class __TwigTemplate_845d98a44e7798451ef18592d510a0a3 extends Twig_Template
   <header id=\"fullscreen\">
     
       <div class=\"logo\" id=\"full\" style=\"display:none;\"><a class=\"ajax-link\" href=\"index.html\">";
-        // line 57
+        // line 54
         echo $this->getAttribute((isset($context["page"]) ? $context["page"] : null), "name");
         echo "</a></div>
       
@@ -100,17 +100,17 @@ class __TwigTemplate_845d98a44e7798451ef18592d510a0a3 extends Twig_Template
   <div class=\"header-margin\">
   
     <div class=\"logo\"><a class=\"ajax-link\" href=\"";
-        // line 71
+        // line 68
         echo $this->getAttribute((isset($context["page"]) ? $context["page"] : null), "root_path");
         echo "\">";
         echo $this->getAttribute((isset($context["page"]) ? $context["page"] : null), "name");
         echo "</a></div>
-
+    <ul id=\"navigation\" class=\"header-nav\">
       ";
-        // line 73
+        // line 70
         $this->env->loadTemplate("partials/navigation/navigation.html")->display($context);
-        // line 74
-        echo "    
+        // line 71
+        echo "    </ul>
     <ul class=\"social-icon\">
       <div class=\"social-index\">
       <li><a href=\"https://www.twitter.com/DotCrosse\"><i class=\"fa fa-twitter\"></i></a></li>
@@ -217,7 +217,7 @@ class __TwigTemplate_845d98a44e7798451ef18592d510a0a3 extends Twig_Template
       <div class=\"parallax-option\" data-jkit=\"[parallax:strength=0.8;axis=both]\">
 
         <div class=\"parallax parallax1\"><img src=\"";
-        // line 180
+        // line 177
         echo $this->getAttribute((isset($context["page"]) ? $context["page"] : null), "root_path");
         echo "/templates/img/business-card-2.png\"></div>
       
@@ -226,7 +226,7 @@ class __TwigTemplate_845d98a44e7798451ef18592d510a0a3 extends Twig_Template
       <div class=\"parallax-option\" data-jkit=\"[parallax:strength=0.5;axis=both]\">
 
         <div class=\"parallax parallax1\"><img src=\"";
-        // line 186
+        // line 183
         echo $this->getAttribute((isset($context["page"]) ? $context["page"] : null), "root_path");
         echo "/templates/img/char_img.png\"></div>
       
@@ -235,7 +235,7 @@ class __TwigTemplate_845d98a44e7798451ef18592d510a0a3 extends Twig_Template
       <div class=\"parallax-option\" data-jkit=\"[parallax:strength=0.3;axis=both]\">
 
         <div class=\"parallax parallax1\"><img src=\"";
-        // line 192
+        // line 189
         echo $this->getAttribute((isset($context["page"]) ? $context["page"] : null), "root_path");
         echo "/templates/img/business-card.png\"></div>
       
@@ -253,7 +253,7 @@ class __TwigTemplate_845d98a44e7798451ef18592d510a0a3 extends Twig_Template
   <div class=\"footer-margin\">
    
   <div class=\"copyright\" id=\"footer-left\">© Copyright ";
-        // line 207
+        // line 204
         echo $this->getAttribute((isset($context["page"]) ? $context["page"] : null), "current_year");
         echo " Alex Neri | ";
         echo $this->getAttribute((isset($context["page"]) ? $context["page"] : null), "name");
@@ -270,39 +270,39 @@ class __TwigTemplate_845d98a44e7798451ef18592d510a0a3 extends Twig_Template
 <!--Scripts-->
 
   <script src=\"";
-        // line 217
+        // line 214
         echo $this->getAttribute((isset($context["page"]) ? $context["page"] : null), "root_path");
         echo "/templates/js/jquery.min.js\"></script>
 \t<script src=\"";
-        // line 218
+        // line 215
         echo $this->getAttribute((isset($context["page"]) ? $context["page"] : null), "root_path");
         echo "/templates/js/jquery.easing.min.js\"></script>
 \t<script src=\"";
-        // line 219
+        // line 216
         echo $this->getAttribute((isset($context["page"]) ? $context["page"] : null), "root_path");
         echo "/templates/js/modernizr.custom.42534.js\" type=\"text/javascript\"></script>
   <script src=\"";
-        // line 220
+        // line 217
         echo $this->getAttribute((isset($context["page"]) ? $context["page"] : null), "root_path");
         echo "/templates/js/jquery.waitforimages.js\" type=\"text/javascript\"></script>
   <script src=\"";
-        // line 221
+        // line 218
         echo $this->getAttribute((isset($context["page"]) ? $context["page"] : null), "root_path");
         echo "/templates/js/typed.js\" type=\"text/javascript\"></script>
   <script src=\"";
-        // line 222
+        // line 219
         echo $this->getAttribute((isset($context["page"]) ? $context["page"] : null), "root_path");
         echo "/templates/js/masonry.pkgd.min.js\" type=\"text/javascript\"></script>  
   <script src=\"";
-        // line 223
+        // line 220
         echo $this->getAttribute((isset($context["page"]) ? $context["page"] : null), "root_path");
         echo "/templates/js/imagesloaded.pkgd.min.js\" type=\"text/javascript\"></script>    
   <script src=\"";
-        // line 224
+        // line 221
         echo $this->getAttribute((isset($context["page"]) ? $context["page"] : null), "root_path");
         echo "/templates/js/jquery.jkit.1.2.16.min.js\"></script>
   <script src=\"";
-        // line 225
+        // line 222
         echo $this->getAttribute((isset($context["page"]) ? $context["page"] : null), "root_path");
         echo "/templates/js/script.js\" type=\"text/javascript\"></script>
 

@@ -11,9 +11,7 @@ class __TwigTemplate_3df0d24dc2b37acb071de9b7c3a5304f extends Twig_Template
     protected function doDisplay(array $context, array $blocks = array())
     {
         // line 1
-        echo "<ul id=\"navigation\" class=\"header-nav\">
-  ";
-        // line 2
+        echo "  ";
         $context['_parent'] = (array) $context;
         $context['_seq'] = twig_ensure_traversable($this->getAttribute((isset($context["page"]) ? $context["page"] : null), "root"));
         $context['loop'] = array(
@@ -30,18 +28,18 @@ class __TwigTemplate_3df0d24dc2b37acb071de9b7c3a5304f extends Twig_Template
             $context['loop']['last'] = 1 === $length;
         }
         foreach ($context['_seq'] as $context["_key"] => $context["child"]) {
-            // line 3
+            // line 2
             echo "    <li>
       <a class=\"ajax-link\" href=\"";
-            // line 4
+            // line 3
             echo $this->getAttribute((isset($context["child"]) ? $context["child"] : null), "url");
             echo "\">";
             echo $this->getAttribute((isset($context["child"]) ? $context["child"] : null), "title");
             echo "</a>
       ";
-            // line 5
+            // line 4
             $this->env->loadTemplate("partials/navigation/children.html")->display(array_merge($context, array("page" => (isset($context["child"]) ? $context["child"] : null))));
-            // line 6
+            // line 5
             echo "    </li>
   ";
             ++$context['loop']['index0'];
@@ -56,8 +54,6 @@ class __TwigTemplate_3df0d24dc2b37acb071de9b7c3a5304f extends Twig_Template
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['child'], $context['_parent'], $context['loop']);
         $context = array_merge($_parent, array_intersect_key($context, $_parent));
-        // line 8
-        echo "</ul>";
     }
 
     public function getTemplateName()
