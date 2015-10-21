@@ -82,8 +82,10 @@ class __TwigTemplate_845d98a44e7798451ef18592d510a0a3 extends Twig_Template
   <!--Header-->
   <header id=\"fullscreen\">
     
-      <div class=\"logo\" id=\"full\" style=\"display:none;\"><a class=\"ajax-link\" href=\"index.html\">";
+      <div class=\"logo\" id=\"full\" style=\"display:none;\"><a class=\"ajax-link\" href=\"";
         // line 54
+        echo $this->getAttribute((isset($context["page"]) ? $context["page"] : null), "root_path");
+        echo "\">";
         echo $this->getAttribute((isset($context["page"]) ? $context["page"] : null), "name");
         echo "</a></div>
       
@@ -99,10 +101,8 @@ class __TwigTemplate_845d98a44e7798451ef18592d510a0a3 extends Twig_Template
 
   <div class=\"header-margin\">
   
-    <div class=\"logo\"><a class=\"ajax-link\" href=\"";
+    <div class=\"logo\"><a class=\"ajax-link\" href=\"/\">";
         // line 68
-        echo $this->getAttribute((isset($context["page"]) ? $context["page"] : null), "root_path");
-        echo "\">";
         echo $this->getAttribute((isset($context["page"]) ? $context["page"] : null), "name");
         echo "</a></div>
     <ul id=\"navigation\" class=\"header-nav\">

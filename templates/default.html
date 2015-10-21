@@ -51,7 +51,7 @@
   <!--Header-->
   <header id="fullscreen">
     
-      <div class="logo" id="full" style="display:none;"><a class="ajax-link" href="index.html">{{ page.name }}</a></div>
+      <div class="logo" id="full" style="display:none;"><a class="ajax-link" href="{{ page.root_path }}">{{ page.name }}</a></div>
       
         <div class="menu-index" style="display:none;" id="button">
         <i class="fa fa-bars"></i>
@@ -65,7 +65,7 @@
 
   <div class="header-margin">
   
-    <div class="logo"><a class="ajax-link" href="{{ page.root_path }}">{{ page.name }}</a></div>
+    <div class="logo"><a class="ajax-link" href="/">{{ page.name }}</a></div>
     <ul id="navigation" class="header-nav">
       {% include 'partials/navigation/navigation.html' %}
     </ul>

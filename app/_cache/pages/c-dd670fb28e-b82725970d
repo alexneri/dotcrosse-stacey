@@ -91,7 +91,7 @@
   <!--Header-->
   <header id="fullscreen">
     
-      <div class="logo" id="full" style="display:none;"><a class="ajax-link" href="index.html">DotCrosse</a></div>
+      <div class="logo" id="full" style="display:none;"><a class="ajax-link" href="./">DotCrosse</a></div>
       
         <div class="menu-index" style="display:none;" id="button">
         <i class="fa fa-bars"></i>
@@ -105,7 +105,7 @@
 
   <div class="header-margin">
   
-    <div class="logo"><a class="ajax-link" href="./">DotCrosse</a></div>
+    <div class="logo"><a class="ajax-link" href="/">DotCrosse</a></div>
     <ul id="navigation" class="header-nav">
             <li>
       <a class="ajax-link" href="./projects/">Projects</a>

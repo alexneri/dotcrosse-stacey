@@ -42,10 +42,7 @@
         </div>
 
     <ul class="menu-fullscreen">
-      <li><a class="ajax-link" href="index.html">Home</a></li>
-      <li><a class="ajax-link" href="projects.html">Projects</a></li>
-      <li><a class="ajax-link" href="about-us.html">Who am I?</a></li>
-      <li><a class="ajax-link" href="contact.html">Contact</a></li>
+      {% include 'partials/navigation/navigation.html' %}
     </ul>
 
 </div>
@@ -54,7 +51,7 @@
   <!--Header-->
   <header id="fullscreen">
     
-      <div class="logo" id="full"><a class="ajax-link" href="index.html">DOTCROSSE</a></div>
+      <div class="logo" id="full"><a class="ajax-link" href="index.php">{{ page.name }}</a></div>
       
         <div class="menu-index" id="button">
         <i class="fa fa-bars"></i>
@@ -71,41 +68,19 @@
 
         <div class="text-intro">
 
-          <h1>Design Philosophy</h1>
+          <h1>{{ page.title }}</h1>
                     
           <div class="one-column">
-            <p>Simple. Elegant. Modern.</p>
+            <p>{{ page.profession }}</p>
           
           </div>
 
 
           <div class="two-column">
 
-            <p>Every work I've done all have but the same precepts used in its creation: the tenets of Simplicity, Elegance and Progressive. Resuting from this is a work that is straightforward, deliberate, succinct, and concise.<br/><br/>
-            
-            <h1>Simplicity</h1>
-            
-            <p>At the core of every design is the idea of simplicity. It is the deep understanding of what really matters, and of what should be. Each design has a focus in which everything else defers to.
-            <br /><br />
-            The right things at the right time. Nothing extra. Only there when you need it.
-            <br /><br />
-            And that is the tenet of Simplicity.
-            <br/><br/> 
-            </p>
-            
-            <h1>Elegance</h1>
-            <p>Elegance is all about grace. The more forceful something feels, the lesser it is for people to identify with the subject. On the other hand, leaving things without impact leaves a lesser impression to the user.
-            <br/><br/>
-            Animations, angles, colours, lines, and whitespaces. All these should work in concert to deliver gentle, impactful, and an impressive presentation to leave the user a delightful experience.
-            <br/><br/>
-            Because Elegance, above all, is all about User Experience.
-            <br/><br/> 
-            </p>
-            
-            <h1>Progressive</h1>
-            <p>Sometimes, designing for the needs of the user is not enough. 
-            </p>
-            </p>
+          {% include 'partials/assets/images.html' %}
+          {{ page.content }}
+          {% include 'partials/assets/pdfs.html' %}
           
           </div>          
 
@@ -156,16 +131,16 @@
 
 <!--Scripts-->
 
-  <script src="js/jquery.min.js"></script>
-	<script src="js/jquery.easing.min.js"></script>
-	<script src="js/modernizr.custom.42534.js" type="text/javascript"></script>
-  <script src="js/jquery.waitforimages.js" type="text/javascript"></script>
-  <script src="js/typed.js" type="text/javascript"></script>
-  <script src="js/masonry.pkgd.min.js" type="text/javascript"></script>  
-  <script src="js/imagesloaded.pkgd.min.js" type="text/javascript"></script>    
-  <script src="js/jquery.jkit.1.2.16.min.js"></script>
+  <script src="{{ page.root_path }}/templates/js/jquery.min.js"></script>
+	<script src="{{ page.root_path }}/templates/js/jquery.easing.min.js"></script>
+	<script src="{{ page.root_path }}/templates/js/modernizr.custom.42534.js" type="text/javascript"></script>
+  <script src="{{ page.root_path }}/templates/js/jquery.waitforimages.js" type="text/javascript"></script>
+  <script src="{{ page.root_path }}/templates/js/typed.js" type="text/javascript"></script>
+  <script src="{{ page.root_path }}/templates/js/masonry.pkgd.min.js" type="text/javascript"></script>  
+  <script src="{{ page.root_path }}/templates/js/imagesloaded.pkgd.min.js" type="text/javascript"></script>    
+  <script src="{{ page.root_path }}/templates/js/jquery.jkit.1.2.16.min.js"></script>
  
-  <script src="js/script.js" type="text/javascript"></script>
+  <script src="{{ page.root_path }}/templates/js/script.js" type="text/javascript"></script>
   
 	<script>
     $('#button, #buttons').on('click', function() {
