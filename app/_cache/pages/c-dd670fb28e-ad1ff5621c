@@ -245,7 +245,7 @@
 
   <div class="footer-margin">
    
-  <div class="copyright" id="footer-left">© Copyright 2015 Alex Neri | DotCrosse. All Rights Reserved unless otherwise specified.</div>
+  <div class="copyright" id="footer-left">© Copyright 2015 Alex Neri | DotCrosse. All Rights Reserved unless otherwise specified. <a class="atom-rss" href=".//?/feed/">RSS</a> </div>
   
   </div>
 

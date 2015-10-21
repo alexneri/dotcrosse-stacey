@@ -248,7 +248,9 @@ class __TwigTemplate_845d98a44e7798451ef18592d510a0a3 extends Twig_Template
         echo $this->getAttribute((isset($context["page"]) ? $context["page"] : null), "current_year");
         echo " Alex Neri | ";
         echo $this->getAttribute((isset($context["page"]) ? $context["page"] : null), "name");
-        echo ". All Rights Reserved unless otherwise specified.</div>
+        echo ". All Rights Reserved unless otherwise specified. <a class=\"atom-rss\" href=\"";
+        echo $this->getAttribute((isset($context["page"]) ? $context["page"] : null), "root_path");
+        echo "/?/feed/\">RSS</a> </div>
   
   </div>
 
