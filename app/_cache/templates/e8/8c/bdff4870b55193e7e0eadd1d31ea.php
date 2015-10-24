@@ -86,7 +86,7 @@ class __TwigTemplate_e88cbdff4870b55193e7e0eadd1d31ea extends Twig_Template
   <!--Header-->
   <header id=\"fullscreen\">
     
-      <div class=\"logo\" id=\"full\"><a class=\"ajax-link\" href=\"index.php\">";
+      <div class=\"logo\" id=\"full\"><a class=\"ajax-link\" href=\"/\">";
         // line 54
         echo $this->getAttribute((isset($context["page"]) ? $context["page"] : null), "name");
         echo "</a></div>

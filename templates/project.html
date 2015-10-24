@@ -78,7 +78,9 @@
 
           <div class="two-column">
 
-
+              {% include 'partials/assets/images.html' %}
+              {{ page.content }}
+              {% include 'partials/assets/pdfs.html' %}
 
               {% if page.siblings %}
                 {% include 'partials/next-page.html' %}
