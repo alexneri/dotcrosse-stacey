@@ -21,7 +21,10 @@ class __TwigTemplate_845d98a44e7798451ef18592d510a0a3 extends Twig_Template
         // line 7
         echo $this->getAttribute((isset($context["page"]) ? $context["page"] : null), "name");
         echo ": Technology, Designs, Works.</title>
-  <meta name=\"description\" content=\"DOTCROSSE - Technology, Designs, and Works. \">
+  <meta name=\"description\" content=\"";
+        // line 8
+        echo $this->getAttribute((isset($context["page"]) ? $context["page"] : null), "name");
+        echo " - Technology, Designs, and Works. \">
   <meta name=\"keywords\" content=\"clean, elegant, design, simplicity, theme, html5\">
   <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"/>
   <meta name=\"author\" content=\"dc.cyne.jp\">
@@ -144,7 +147,10 @@ class __TwigTemplate_845d98a44e7798451ef18592d510a0a3 extends Twig_Template
 
   
     <li class=\"grid-item\" data-jkit=\"[show:delay=3000;speed=500;animation=fade]\">
-      <img src=\"img/portfolio/1.png\">
+      <img src=\"";
+        // line 105
+        echo $this->getAttribute((isset($context["page"]) ? $context["page"] : null), "root_path");
+        echo "/templates/img/portfolio/1.png\">
         <a class=\"ajax-link\" href=\"my-designs-mirai-umbrella.html\">  
           <div class=\"grid-hover\">
             <h1>Mirai Umbrella</h1>
@@ -154,7 +160,10 @@ class __TwigTemplate_845d98a44e7798451ef18592d510a0a3 extends Twig_Template
     </li>
 
     <li class=\"grid-item\" data-jkit=\"[show:delay=3000;speed=500;animation=fade]\">
-      <img src=\"img/portfolio/5.png\">
+      <img src=\"";
+        // line 115
+        echo $this->getAttribute((isset($context["page"]) ? $context["page"] : null), "root_path");
+        echo "/templates/img/portfolio/5.png\">
         <a class=\"ajax-link\" href=\"my-designs-cucina-espana.html\">  
           <div class=\"grid-hover\">
             <h1>Cucina España</h1>
@@ -164,7 +173,10 @@ class __TwigTemplate_845d98a44e7798451ef18592d510a0a3 extends Twig_Template
     </li> 
   
   <li class=\"grid-item\" data-jkit=\"[show:delay=3000;speed=500;animation=fade]\">
-    <img src=\"img/portfolio/2.jpg\">
+    <img src=\"";
+        // line 125
+        echo $this->getAttribute((isset($context["page"]) ? $context["page"] : null), "root_path");
+        echo "/templates/img/portfolio/2.jpg\">
       <a class=\"ajax-link\" href=\"#\">  
         <div class=\"grid-hover\">
           <h1>Single</h1>
@@ -174,7 +186,10 @@ class __TwigTemplate_845d98a44e7798451ef18592d510a0a3 extends Twig_Template
   </li>  
   
   <li class=\"grid-item\" data-jkit=\"[show:delay=3000;speed=500;animation=fade]\">
-    <img src=\"img/portfolio/3.jpg\">
+    <img src=\"";
+        // line 135
+        echo $this->getAttribute((isset($context["page"]) ? $context["page"] : null), "root_path");
+        echo "/templates/img/portfolio/3.jpg\">
       <a class=\"ajax-link\" href=\"#\">  
         <div class=\"grid-hover\">
           <h1>Single</h1>
@@ -184,7 +199,10 @@ class __TwigTemplate_845d98a44e7798451ef18592d510a0a3 extends Twig_Template
   </li>    
 
   <li class=\"grid-item\" data-jkit=\"[show:delay=3000;speed=500;animation=fade]\">
-    <img src=\"img/portfolio/4.jpg\">
+    <img src=\"";
+        // line 145
+        echo $this->getAttribute((isset($context["page"]) ? $context["page"] : null), "root_path");
+        echo "/templates/img/portfolio/4.jpg\">
       <a class=\"ajax-link\" href=\"#\">  
         <div class=\"grid-hover\">
           <h1>Single</h1>
@@ -194,7 +212,10 @@ class __TwigTemplate_845d98a44e7798451ef18592d510a0a3 extends Twig_Template
   </li>    
 
   <li class=\"grid-item\" data-jkit=\"[show:delay=3000;speed=500;animation=fade]\">
-    <img src=\"img/portfolio/6.jpg\">
+    <img src=\"";
+        // line 155
+        echo $this->getAttribute((isset($context["page"]) ? $context["page"] : null), "root_path");
+        echo "/templates/img/portfolio/6.jpg\">
       <a class=\"ajax-link\" href=\"#\">  
         <div class=\"grid-hover\">
           <h1>Single</h1>
