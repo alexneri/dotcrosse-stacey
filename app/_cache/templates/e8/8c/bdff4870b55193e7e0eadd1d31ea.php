@@ -122,25 +122,32 @@ class __TwigTemplate_e88cbdff4870b55193e7e0eadd1d31ea extends Twig_Template
 
           <div class=\"two-column\">
 
-
-
+              ";
+        // line 81
+        $this->env->loadTemplate("partials/assets/images.html")->display($context);
+        // line 82
+        echo "              ";
+        echo $this->getAttribute((isset($context["page"]) ? $context["page"] : null), "content");
+        echo "
               ";
         // line 83
+        $this->env->loadTemplate("partials/assets/pdfs.html")->display($context);
+        // line 84
+        echo "
+              ";
+        // line 85
         if ($this->getAttribute((isset($context["page"]) ? $context["page"] : null), "siblings")) {
-            // line 84
+            // line 86
             echo "                ";
             $this->env->loadTemplate("partials/next-page.html")->display($context);
-            // line 85
+            // line 87
             echo "                ";
             $this->env->loadTemplate("partials/previous-page.html")->display($context);
-            // line 86
+            // line 88
             echo "              ";
         }
-        // line 87
+        // line 89
         echo "
-          <div id=\"gallery-navigation\" class=\"col three\">
-          <p><a href=\"#\" id=\"next-image\">Next image</a> <em>&rarr;</em></p>
-          <p><a href=\"#\" id=\"previous-image\">Previous image</a> <em>&larr;</em></p>
           
           </div>          
 
@@ -192,40 +199,40 @@ class __TwigTemplate_e88cbdff4870b55193e7e0eadd1d31ea extends Twig_Template
 <!--Scripts-->
 
   <script src=\"";
-        // line 141
+        // line 140
         echo $this->getAttribute((isset($context["page"]) ? $context["page"] : null), "root_path");
         echo "/templates/js/jquery.min.js\"></script>
 \t<script src=\"";
-        // line 142
+        // line 141
         echo $this->getAttribute((isset($context["page"]) ? $context["page"] : null), "root_path");
         echo "/templates/js/jquery.easing.min.js\"></script>
 \t<script src=\"";
-        // line 143
+        // line 142
         echo $this->getAttribute((isset($context["page"]) ? $context["page"] : null), "root_path");
         echo "/templates/js/modernizr.custom.42534.js\" type=\"text/javascript\"></script>
   <script src=\"";
-        // line 144
+        // line 143
         echo $this->getAttribute((isset($context["page"]) ? $context["page"] : null), "root_path");
         echo "/templates/js/jquery.waitforimages.js\" type=\"text/javascript\"></script>
   <script src=\"";
-        // line 145
+        // line 144
         echo $this->getAttribute((isset($context["page"]) ? $context["page"] : null), "root_path");
         echo "/templates/js/typed.js\" type=\"text/javascript\"></script>
   <script src=\"";
-        // line 146
+        // line 145
         echo $this->getAttribute((isset($context["page"]) ? $context["page"] : null), "root_path");
         echo "/templates/js/masonry.pkgd.min.js\" type=\"text/javascript\"></script>  
   <script src=\"";
-        // line 147
+        // line 146
         echo $this->getAttribute((isset($context["page"]) ? $context["page"] : null), "root_path");
         echo "/templates/js/imagesloaded.pkgd.min.js\" type=\"text/javascript\"></script>    
   <script src=\"";
-        // line 148
+        // line 147
         echo $this->getAttribute((isset($context["page"]) ? $context["page"] : null), "root_path");
         echo "/templates/js/jquery.jkit.1.2.16.min.js\"></script>
  
   <script src=\"";
-        // line 150
+        // line 149
         echo $this->getAttribute((isset($context["page"]) ? $context["page"] : null), "root_path");
         echo "/templates/js/script.js\" type=\"text/javascript\"></script>
   
