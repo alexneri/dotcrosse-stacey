@@ -44,15 +44,15 @@
     <ul class="menu-fullscreen">
         ﻿  
     <li>
-      <a class="ajax-link" href="./projects/">Projects</a>
+      <a href="/./projects/">Projects</a>
     </li>
   
     <li>
-      <a class="ajax-link" href="./about/">About Ñame</a>
+      <a href="/./about/">About Ñame</a>
     </li>
   
     <li>
-      <a class="ajax-link" href="./contact-me/">Contact details</a>
+      <a href="/./contact-me/">Contact details</a>
     </li>
   
     </ul>
@@ -81,57 +81,57 @@
     <ul id="navigation" class="header-nav">
         
     <li>
-      <a class="ajax-link" href="./projects/">Projects</a>
+      <a class="ajax-link" href="/projects/">Projects</a>
       
   <ul class="children">
   
       <li>
-        <a class="ajax-link" href="./projects/project-1/">Project 1</a>
+        <a class="ajax-link" href="/projects/project-1/">Project 1</a>
         
       </li>
     
       <li>
-        <a class="ajax-link" href="./projects/movie-project-2/">Movie Project 2</a>
+        <a class="ajax-link" href="/projects/movie-project-2/">Movie Project 2</a>
         
       </li>
     
       <li>
-        <a class="ajax-link" href="./projects/project-name-3/">Project Name 3</a>
+        <a class="ajax-link" href="/projects/project-name-3/">Project Name 3</a>
         
       </li>
     
       <li>
-        <a class="ajax-link" href="./projects/youtube-project-4/">Youtube Project 4</a>
+        <a class="ajax-link" href="/projects/youtube-project-4/">Youtube Project 4</a>
         
       </li>
     
       <li>
-        <a class="ajax-link" href="./projects/vimeo-project-5/">Vimeo Project 5</a>
+        <a class="ajax-link" href="/projects/vimeo-project-5/">Vimeo Project 5</a>
         
       </li>
     
       <li>
-        <a class="ajax-link" href="./projects/swf-project-6/">Swf Project 6</a>
+        <a class="ajax-link" href="/projects/swf-project-6/">Swf Project 6</a>
         
       </li>
     
       <li>
-        <a class="ajax-link" href="./projects/mixed-media-project-7/">Mixed Media Project 7</a>
+        <a class="ajax-link" href="/projects/mixed-media-project-7/">Mixed Media Project 7</a>
         
       </li>
     
       <li>
-        <a class="ajax-link" href="./projects/project-name-8/">Project Name 8</a>
+        <a class="ajax-link" href="/projects/project-name-8/">Project Name 8</a>
         
       </li>
     
       <li>
-        <a class="ajax-link" href="./projects/project-name-9/">Project Name 9</a>
+        <a class="ajax-link" href="/projects/project-name-9/">Project Name 9</a>
         
       </li>
     
       <li>
-        <a class="ajax-link" href="./projects/project-name-10/">Project Name 10</a>
+        <a class="ajax-link" href="/projects/project-name-10/">Project Name 10</a>
         
       </li>
     
@@ -140,12 +140,12 @@
     </li>
   
     <li>
-      <a class="ajax-link" href="./about/">About Ñame</a>
+      <a class="ajax-link" href="/about/">About Ñame</a>
       
     </li>
   
     <li>
-      <a class="ajax-link" href="./contact-me/">Contact details</a>
+      <a class="ajax-link" href="/contact-me/">Contact details</a>
       
     </li>
   
@@ -311,4 +311,4 @@
 
 </body>
 </html>
-<!-- Stacey(2.3.0): f078caf2f9f65ad86a3a3c02e55ed58f -->
+<!-- Stacey(2.3.0): 11ad3d89bd56ae4681a12138e5dd15a8 -->
