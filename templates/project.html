@@ -4,18 +4,18 @@
 <head>
 
   <meta charset="utf-8">
-  <title>{{ page.title }} | {{ page.name }} - Technology, Designs, and Works.</title>
-  <meta name="description" content="{{ page.title }} | {{ page.name }} - Technology, Designs, and Works. ">
-  <meta name="keywords" content="about, DotCrosse, theme, html5">
+  <title>@title | @name - Technology, Designs, and Works.</title>
+  <meta name="description" content="@title | @name - Technology, Designs, and Works. ">
+  <meta name="keywords" content="about, @name, theme, html5">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <meta name="author" content="dc.cyne.jp">
   <link rel="icon" type="image/png" href="img/icon.png" />
 
 <!--Style-->
 
-  <link rel="stylesheet" href="{{ page.root_path }}/templates/css/reset.css">
-  <link rel="stylesheet" href="{{ page.root_path }}/templates/css/style.css">
-  <link rel="stylesheet" href="{{ page.root_path }}/templates/css/style-responsive.css">  
+  <link rel="stylesheet" href="@root_path/templates/css/reset.css">
+  <link rel="stylesheet" href="@root_path/templates/css/style.css">
+  <link rel="stylesheet" href="@root_path/templates/css/style-responsive.css">  
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
   
   <!--[if lt IE 9]>
@@ -42,7 +42,7 @@
         </div>
 
     <ul class="menu-fullscreen">
-      {% include 'partials/navigation/navigation.html' %}
+      @navigation_boxed
     </ul>
 
 </div>
@@ -51,7 +51,7 @@
   <!--Header-->
   <header id="fullscreen">
     
-      <div class="logo" id="full"><a class="ajax-link" href="/">{{ page.name }}</a></div>
+      <div class="logo" id="full"><a class="ajax-link" href="/">@name</a></div>
       
         <div class="menu-index" id="button">
         <i class="fa fa-bars"></i>
@@ -68,24 +68,24 @@
 
         <div class="text-intro">
 
-          <h1>{{ page.title }}</h1>
+          <h1>@title</h1>
                     
           <div class="one-column">
-            <p>{{ page.profession }}</p>
+            <p>@profession</p>
           
           </div>
 
 
           <div class="two-column">
 
-              {% include 'partials/assets/images.html' %}
-              {{ page.content }}
-              {% include 'partials/assets/pdfs.html' %}
+              :images
+              @content
+              :pdfs
 
-              {% if page.siblings %}
-                {% include 'partials/next-page.html' %}
-                {% include 'partials/previous-page.html' %}
-              {% endif %}
+          if $siblings do
+            :next-page
+            :previous-page
+          endif
 
           
           </div>          
@@ -106,9 +106,9 @@
   <!--Philosophy separator-->
                 <div class="clear"></div>   				  
                  				        
-				        <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+<!--				        <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
 				        
-				        <img src="img/portfolio/miraisuenaga-umbrella.png" width="100%"><br/><br/><br/><br/>
+				        <img src="img/portfolio/miraisuenaga-umbrella.png" width="100%"><br/><br/><br/><br/>-->
 
 
 
@@ -127,7 +127,7 @@
         <a href="https://www.behance.net/AlexNeri"><i class="fa fa-behance"></i></a>
       
       </div>     
-      <div class="copyright" id="footer-left">© Copyright 2015 Alex Neri | DotCrosse. All Rights Reserved unless otherwise specified.</div>
+      <div class="copyright" id="footer-left">© Copyright @current_year Alex Neri | @name. All Rights Reserved unless otherwise specified. <a class="atom-rss" href="@root_path/?/feed/">RSS</a></div>
     
     </div>
 
@@ -137,16 +137,16 @@
 
 <!--Scripts-->
 
-  <script src="{{ page.root_path }}/templates/js/jquery.min.js"></script>
-	<script src="{{ page.root_path }}/templates/js/jquery.easing.min.js"></script>
-	<script src="{{ page.root_path }}/templates/js/modernizr.custom.42534.js" type="text/javascript"></script>
-  <script src="{{ page.root_path }}/templates/js/jquery.waitforimages.js" type="text/javascript"></script>
-  <script src="{{ page.root_path }}/templates/js/typed.js" type="text/javascript"></script>
-  <script src="{{ page.root_path }}/templates/js/masonry.pkgd.min.js" type="text/javascript"></script>  
-  <script src="{{ page.root_path }}/templates/js/imagesloaded.pkgd.min.js" type="text/javascript"></script>    
-  <script src="{{ page.root_path }}/templates/js/jquery.jkit.1.2.16.min.js"></script>
+  <script src="@root_path/templates/js/jquery.min.js"></script>
+	<script src="@root_path/templates/js/jquery.easing.min.js"></script>
+	<script src="@root_path/templates/js/modernizr.custom.42534.js" type="text/javascript"></script>
+  <script src="@root_path/templates/js/jquery.waitforimages.js" type="text/javascript"></script>
+  <script src="@root_path/templates/js/typed.js" type="text/javascript"></script>
+  <script src="@root_path/templates/js/masonry.pkgd.min.js" type="text/javascript"></script>  
+  <script src="@root_path/templates/js/imagesloaded.pkgd.min.js" type="text/javascript"></script>    
+  <script src="@root_path/templates/js/jquery.jkit.1.2.16.min.js"></script>
  
-  <script src="{{ page.root_path }}/templates/js/script.js" type="text/javascript"></script>
+  <script src="@root_path/templates/js/script.js" type="text/javascript"></script>
   
 	<script>
     $('#button, #buttons').on('click', function() {
