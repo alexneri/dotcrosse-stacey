@@ -1,8 +1,6 @@
-<ul id="navigation" class="col two">
-  {% for child in page.root %}
+  foreach $root do
     <li>
-      <a href="{{ child.url }}">{{ child.title }}</a>
-      {% include 'partials/navigation/children.html' with { 'page' : child } %}
+      <a class="ajax-link" href="/@permalink">@title</a>
+      :children
     </li>
-  {% endfor %}
-</ul>
+  endforeach

@@ -1,10 +1,10 @@
-{% if page.children %}
-  <ol class="children">
-    {% for child in page.children %}
+if $children do
+  <ul class="children">
+  foreach $children do
       <li>
-        <a href="{{ child.url }}">{{ child.page_name }}</a>
-        {% include 'partials/navigation/children.html' with { 'page' : child } %}
+        <a class="ajax-link" href="/@permalink">@page_name</a>
+        :children
       </li>
-    {% endfor %}
-  </ol>
-{% endif %}
+    endforeach
+  </ul>
+endif
