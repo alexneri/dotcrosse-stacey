@@ -1,8 +1,8 @@
 foreach $images do
-  <div class="image">
+  <div class="image" data-jkit="[show:delay=3000;speed=500;animation=fade]">
     <img src="@url" alt="@title" width="@width" height="@height">
     if @description do
-      <em>@description</em>
+      <br /><br /><em>@description</em><br /><br /><br />
     endif
   </div>
 endforeach
