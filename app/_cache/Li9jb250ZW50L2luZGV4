@@ -5,7 +5,7 @@
 
   <meta charset="utf-8">
   <title>Ñame: Technology, Designs, Works.</title>
-  <meta name="description" content="Ñame - Technology, Designs, and Works. ">
+  <meta name="description" content="Ñame: Technology, Designs, Works.">
   <meta name="keywords" content="Ñame, clean, elegant, design, simplicity, theme, html5">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <meta name="author" content="dc.cyne.jp">
@@ -172,12 +172,108 @@
 
         <h1>Technical.<br />Creative.<br />See all</h1>
         <h1 class="typewrite"><span>Portfolio</span></h1>
-        <p>This is my creative and technical portfolio site. Have a look around and see what I have been up to.</p>
+        <p><p>Hi there! This is my creative and technical portfolio site. Have a look around and see what I have been up to.</p>
+</p>
 
       </div>
 
 
 <!--Portfolio grid-->
+
+        <ul class="portfolio-grid" id="portfolio-sidebar">
+                  <li class="grid-item" data-jkit="[show:delay=3000;speed=500;animation=fade]">
+            <img src="./content/4.projects/10.project-1/thumb.jpg">
+            <a class="ajax-link" href="/projects/project-1/">
+            <div class="grid-hover">
+                <h1>The Test Project 1</h1>
+                <p>@category</p>
+            </div>
+            </a>
+          </li>
+                  <li class="grid-item" data-jkit="[show:delay=3000;speed=500;animation=fade]">
+            <img src="./content/4.projects/9.movie-project-2/thumb.jpg">
+            <a class="ajax-link" href="/projects/movie-project-2/">
+            <div class="grid-hover">
+                <h1>Movie Project 2</h1>
+                <p>@category</p>
+            </div>
+            </a>
+          </li>
+                  <li class="grid-item" data-jkit="[show:delay=3000;speed=500;animation=fade]">
+            <img src="./content/4.projects/8.project-name-3/thumb.jpg">
+            <a class="ajax-link" href="/projects/project-name-3/">
+            <div class="grid-hover">
+                <h1>The Test Project 3</h1>
+                <p>@category</p>
+            </div>
+            </a>
+          </li>
+                  <li class="grid-item" data-jkit="[show:delay=3000;speed=500;animation=fade]">
+            <img src="./content/4.projects/7.youtube-project-4/thumb.jpg">
+            <a class="ajax-link" href="/projects/youtube-project-4/">
+            <div class="grid-hover">
+                <h1>Youtube Project 4</h1>
+                <p>@category</p>
+            </div>
+            </a>
+          </li>
+                  <li class="grid-item" data-jkit="[show:delay=3000;speed=500;animation=fade]">
+            <img src="./content/4.projects/6.vimeo-project-5/thumb.jpg">
+            <a class="ajax-link" href="/projects/vimeo-project-5/">
+            <div class="grid-hover">
+                <h1>The Vimeo Project 5</h1>
+                <p>@category</p>
+            </div>
+            </a>
+          </li>
+                  <li class="grid-item" data-jkit="[show:delay=3000;speed=500;animation=fade]">
+            <img src="./content/4.projects/5.swf-project-6/thumb.jpg">
+            <a class="ajax-link" href="/projects/swf-project-6/">
+            <div class="grid-hover">
+                <h1>The SWF Project 6</h1>
+                <p>@category</p>
+            </div>
+            </a>
+          </li>
+                  <li class="grid-item" data-jkit="[show:delay=3000;speed=500;animation=fade]">
+            <img src="./content/4.projects/4.mixed-media-project-7/thumb.jpg">
+            <a class="ajax-link" href="/projects/mixed-media-project-7/">
+            <div class="grid-hover">
+                <h1>The Mixed Media Project 7</h1>
+                <p>@category</p>
+            </div>
+            </a>
+          </li>
+                  <li class="grid-item" data-jkit="[show:delay=3000;speed=500;animation=fade]">
+            <img src="./content/4.projects/3.project-name-8/thumb.jpg">
+            <a class="ajax-link" href="/projects/project-name-8/">
+            <div class="grid-hover">
+                <h1>The Test Project 8</h1>
+                <p>@category</p>
+            </div>
+            </a>
+          </li>
+                  <li class="grid-item" data-jkit="[show:delay=3000;speed=500;animation=fade]">
+            <img src="./content/4.projects/2.project-name-9/thumb.jpg">
+            <a class="ajax-link" href="/projects/project-name-9/">
+            <div class="grid-hover">
+                <h1>Project 9</h1>
+                <p>@category</p>
+            </div>
+            </a>
+          </li>
+                  <li class="grid-item" data-jkit="[show:delay=3000;speed=500;animation=fade]">
+            <img src="./content/4.projects/1.project-name-10/thumb.jpg">
+            <a class="ajax-link" href="/projects/project-name-10/">
+            <div class="grid-hover">
+                <h1>The Test Project 10</h1>
+                <p>@category</p>
+            </div>
+            </a>
+          </li>
+        
+      </ul>
+          
 
 <!--<ul class="portfolio-grid" id="portfolio-sidebar">
 
@@ -293,8 +389,8 @@
 <!--Scripts-->
 
   <script src="./templates/js/jquery.min.js"></script>
-	<script src="./templates/js/jquery.easing.min.js"></script>
-	<script src="./templates/js/modernizr.custom.42534.js" type="text/javascript"></script>
+  <script src="./templates/js/jquery.easing.min.js"></script>
+  <script src="./templates/js/modernizr.custom.42534.js" type="text/javascript"></script>
   <script src="./templates/js/jquery.waitforimages.js" type="text/javascript"></script>
   <script src="./templates/js/typed.js" type="text/javascript"></script>
   <script src="./templates/js/masonry.pkgd.min.js" type="text/javascript"></script>  
@@ -311,4 +407,4 @@
 
 </body>
 </html>
-<!-- Stacey(2.3.0): 33e8dfa3e8d628fd57774d36c10fb74d -->
+<!-- Stacey(2.3.0): 8271081e5cdf718cac69ee15f912901c -->
