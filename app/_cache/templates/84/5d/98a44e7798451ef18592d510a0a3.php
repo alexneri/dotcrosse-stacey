@@ -143,7 +143,7 @@ class __TwigTemplate_845d98a44e7798451ef18592d510a0a3 extends Twig_Template
 
 <!--Portfolio grid-->
 
-<ul class=\"portfolio-grid\" id=\"portfolio-sidebar\">
+<!--<ul class=\"portfolio-grid\" id=\"portfolio-sidebar\">
 
   
     <li class=\"grid-item\" data-jkit=\"[show:delay=3000;speed=500;animation=fade]\">
@@ -224,7 +224,7 @@ class __TwigTemplate_845d98a44e7798451ef18592d510a0a3 extends Twig_Template
       </a>      
   </li>  
 
-</ul>
+</ul> -->
 
 </div>
 
